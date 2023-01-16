@@ -49,10 +49,14 @@
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                     </view>
                     <navigationItem key="navigationItem" id="llS-iC-1Cv"/>
+                    <connections>
+                        <outlet property="loginButton" destination="WGu-qt-i5e" id="lvh-mr-YoL"/>
+                        <outlet property="titleLabel" destination="GB3-0n-DZo" id="Qsh-0p-H8S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="644" y="-103"/>
+            <point key="canvasLocation" x="643.51145038167931" y="-103.52112676056339"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="wab-rr-H69">

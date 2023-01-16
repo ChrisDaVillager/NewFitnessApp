@@ -9,6 +9,12 @@ import UIKit
 
 class MainViewController: UIViewController {
     
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var loginButton: UIButton!
+    
+    
     @IBAction func loginButton(_ sender: Any) {
         // log user in
         
@@ -21,7 +27,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+        titleLabel.text = "White Label App"
     }
     
 }
