@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "stephinline_logo_ig_favicon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8321DC8B2975E14B00FB6E61 /* SignUpViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321DC8A2975E14B00FB6E61 /* SignUpViewContoller.swift */; };
-		8321DC8D2975F18200FB6E61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321DC8C2975F18200FB6E61 /* LoginViewController.swift */; };
 		8321DCB22975F6B800FB6E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83642FF92974E36100418550 /* Main.storyboard */; };
+		8363110D2980AAA900BAB2B5 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363110C2980AAA900BAB2B5 /* Lesson.swift */; };
 		83642FF42974E36100418550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF32974E36100418550 /* AppDelegate.swift */; };
 		83642FF62974E36100418550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF52974E36100418550 /* SceneDelegate.swift */; };
-		83642FF82974E36100418550 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF72974E36100418550 /* MainViewController.swift */; };
+		83642FF82974E36100418550 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF72974E36100418550 /* LessonViewController.swift */; };
 		83642FFE2974E36100418550 /* NewFitnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83642FFC2974E36100418550 /* NewFitnessApp.xcdatamodeld */; };
 		836430002974E36200418550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83642FFF2974E36200418550 /* Assets.xcassets */; };
 		836430032974E36200418550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836430012974E36200418550 /* LaunchScreen.storyboard */; };
@@ -39,12 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8321DC8A2975E14B00FB6E61 /* SignUpViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewContoller.swift; sourceTree = "<group>"; };
-		8321DC8C2975F18200FB6E61 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8363110C2980AAA900BAB2B5 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		83642FF02974E36100418550 /* NewFitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83642FF32974E36100418550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83642FF52974E36100418550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83642FF72974E36100418550 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		83642FF72974E36100418550 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
 		83642FFA2974E36100418550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83642FFD2974E36100418550 /* NewFitnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewFitnessApp.xcdatamodel; sourceTree = "<group>"; };
 		83642FFF2974E36200418550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,12 +105,11 @@
 			children = (
 				83642FF32974E36100418550 /* AppDelegate.swift */,
 				83642FF52974E36100418550 /* SceneDelegate.swift */,
-				83642FF72974E36100418550 /* MainViewController.swift */,
+				83642FF72974E36100418550 /* LessonViewController.swift */,
+				8363110C2980AAA900BAB2B5 /* Lesson.swift */,
 				83642FF92974E36100418550 /* Main.storyboard */,
-				8321DC8C2975F18200FB6E61 /* LoginViewController.swift */,
-				8321DC8A2975E14B00FB6E61 /* SignUpViewContoller.swift */,
-				83642FFF2974E36200418550 /* Assets.xcassets */,
 				836430012974E36200418550 /* LaunchScreen.storyboard */,
+				83642FFF2974E36200418550 /* Assets.xcassets */,
 				836430042974E36200418550 /* Info.plist */,
 				83642FFC2974E36100418550 /* NewFitnessApp.xcdatamodeld */,
 			);
@@ -267,12 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8321DC8D2975F18200FB6E61 /* LoginViewController.swift in Sources */,
-				83642FF82974E36100418550 /* MainViewController.swift in Sources */,
+				83642FF82974E36100418550 /* LessonViewController.swift in Sources */,
 				83642FFE2974E36100418550 /* NewFitnessApp.xcdatamodeld in Sources */,
 				83642FF42974E36100418550 /* AppDelegate.swift in Sources */,
+				8363110D2980AAA900BAB2B5 /* Lesson.swift in Sources */,
 				83642FF62974E36100418550 /* SceneDelegate.swift in Sources */,
-				8321DC8B2975E14B00FB6E61 /* SignUpViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
