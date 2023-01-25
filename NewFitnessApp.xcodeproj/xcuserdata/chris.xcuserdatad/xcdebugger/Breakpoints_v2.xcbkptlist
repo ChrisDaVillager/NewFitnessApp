@@ -3,4 +3,114 @@
    uuid = "89BAD3EB-C6C4-4BDD-9AF3-9265D29BE7AE"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NewFitnessApp/LessonViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "LessonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - 18e2c3db9ffe1f2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.instructorNameTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - 8218639aa8f67399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.instructorNameTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - a98a7fb44aec4012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.instructorNameTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - a4a253ccf9dc04f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.instructorNameTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - 60138d3120f2b834"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; NewFitnessApp.LessonViewController"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0F86D344-FDD2-495D-9AE7-729D2CB29EC6 - 742ccb03bd15c264"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NewFitnessApp.LessonViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NewFitnessApp.LessonViewController&gt;"
+                  moduleName = "NewFitnessApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/Desktop/Projects/NewFitnessApp/NewFitnessApp/LessonViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

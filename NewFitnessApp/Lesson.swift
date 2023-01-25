@@ -11,12 +11,12 @@ class Lesson {
     
     let lessonType: String
     let instructorName: String
-    let targetDate: Date
+    let targetDatePicker: Date
     
-    init(lessonType: String, instructorName: String, targetDate: Date) {
+    init(lessonType: String, instructorName: String, targetDatePicker: Date) {
         
         self.lessonType = lessonType
         self.instructorName = instructorName
-        self.targetDate = targetDate
+        self.targetDatePicker = targetDatePicker
     }
 }
