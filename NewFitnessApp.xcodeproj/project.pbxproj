@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8321DCB22975F6B800FB6E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83642FF92974E36100418550 /* Main.storyboard */; };
-		8363110D2980AAA900BAB2B5 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363110C2980AAA900BAB2B5 /* Lesson.swift */; };
+		833EC327298711EB005A832B /* CoreDataModel1.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 833EC325298711EB005A832B /* CoreDataModel1.xcdatamodeld */; };
+		833EC32E29871408005A832B /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833EC32C29871408005A832B /* Lesson+CoreDataClass.swift */; };
+		833EC32F29871408005A832B /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833EC32D29871408005A832B /* Lesson+CoreDataProperties.swift */; };
+		8363110D2980AAA900BAB2B5 /* lessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363110C2980AAA900BAB2B5 /* lessonTableViewCell.swift */; };
 		836311132981C84400BAB2B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836311122981C84400BAB2B5 /* LoginViewController.swift */; };
 		83642FF42974E36100418550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF32974E36100418550 /* AppDelegate.swift */; };
 		83642FF62974E36100418550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF52974E36100418550 /* SceneDelegate.swift */; };
-		83642FF82974E36100418550 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF72974E36100418550 /* LessonViewController.swift */; };
-		83642FFE2974E36100418550 /* NewFitnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83642FFC2974E36100418550 /* NewFitnessApp.xcdatamodeld */; };
+		83642FF82974E36100418550 /* AddLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83642FF72974E36100418550 /* AddLessonViewController.swift */; };
 		836430002974E36200418550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83642FFF2974E36200418550 /* Assets.xcassets */; };
 		836430032974E36200418550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836430012974E36200418550 /* LaunchScreen.storyboard */; };
 		8364300E2974E36300418550 /* NewFitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364300D2974E36300418550 /* NewFitnessAppTests.swift */; };
@@ -21,6 +23,7 @@
 		8364301A2974E36300418550 /* NewFitnessAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836430192974E36300418550 /* NewFitnessAppUITestsLaunchTests.swift */; };
 		83683E582981CD870027EFA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E572981CD870027EFA3 /* MainViewController.swift */; };
 		83683E5A2981D8D80027EFA3 /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E592981D8D80027EFA3 /* LessonTableViewController.swift */; };
+		83683E5C298367810027EFA3 /* LessonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E5B298367810027EFA3 /* LessonStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8363110C2980AAA900BAB2B5 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		833EC326298711EB005A832B /* CoreDataModel1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel1.xcdatamodel; sourceTree = "<group>"; };
+		833EC32C29871408005A832B /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		833EC32D29871408005A832B /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8363110C2980AAA900BAB2B5 /* lessonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonTableViewCell.swift; sourceTree = "<group>"; };
 		836311122981C84400BAB2B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83642FF02974E36100418550 /* NewFitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83642FF32974E36100418550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83642FF52974E36100418550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83642FF72974E36100418550 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		83642FF72974E36100418550 /* AddLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLessonViewController.swift; sourceTree = "<group>"; };
 		83642FFA2974E36100418550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83642FFD2974E36100418550 /* NewFitnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewFitnessApp.xcdatamodel; sourceTree = "<group>"; };
 		83642FFF2974E36200418550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836430022974E36200418550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		836430042974E36200418550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		836430192974E36300418550 /* NewFitnessAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFitnessAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83683E572981CD870027EFA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		83683E592981D8D80027EFA3 /* LessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
+		83683E5B298367810027EFA3 /* LessonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,16 +117,19 @@
 			children = (
 				83642FF32974E36100418550 /* AppDelegate.swift */,
 				83642FF52974E36100418550 /* SceneDelegate.swift */,
+				83683E5B298367810027EFA3 /* LessonStruct.swift */,
+				8363110C2980AAA900BAB2B5 /* lessonTableViewCell.swift */,
 				83683E572981CD870027EFA3 /* MainViewController.swift */,
 				836311122981C84400BAB2B5 /* LoginViewController.swift */,
-				83642FF72974E36100418550 /* LessonViewController.swift */,
+				83642FF72974E36100418550 /* AddLessonViewController.swift */,
 				83683E592981D8D80027EFA3 /* LessonTableViewController.swift */,
-				8363110C2980AAA900BAB2B5 /* Lesson.swift */,
+				833EC32C29871408005A832B /* Lesson+CoreDataClass.swift */,
+				833EC32D29871408005A832B /* Lesson+CoreDataProperties.swift */,
 				83642FF92974E36100418550 /* Main.storyboard */,
 				836430012974E36200418550 /* LaunchScreen.storyboard */,
 				83642FFF2974E36200418550 /* Assets.xcassets */,
 				836430042974E36200418550 /* Info.plist */,
-				83642FFC2974E36100418550 /* NewFitnessApp.xcdatamodeld */,
+				833EC325298711EB005A832B /* CoreDataModel1.xcdatamodeld */,
 			);
 			path = NewFitnessApp;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 				8321DCB22975F6B800FB6E61 /* Main.storyboard in Resources */,
 				836430032974E36200418550 /* LaunchScreen.storyboard in Resources */,
 				836430002974E36200418550 /* Assets.xcassets in Resources */,
+				833EC327298711EB005A832B /* CoreDataModel1.xcdatamodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +285,13 @@
 			files = (
 				83683E582981CD870027EFA3 /* MainViewController.swift in Sources */,
 				836311132981C84400BAB2B5 /* LoginViewController.swift in Sources */,
-				83642FF82974E36100418550 /* LessonViewController.swift in Sources */,
-				83642FFE2974E36100418550 /* NewFitnessApp.xcdatamodeld in Sources */,
+				833EC32F29871408005A832B /* Lesson+CoreDataProperties.swift in Sources */,
+				83642FF82974E36100418550 /* AddLessonViewController.swift in Sources */,
 				83642FF42974E36100418550 /* AppDelegate.swift in Sources */,
+				833EC32E29871408005A832B /* Lesson+CoreDataClass.swift in Sources */,
 				83683E5A2981D8D80027EFA3 /* LessonTableViewController.swift in Sources */,
-				8363110D2980AAA900BAB2B5 /* Lesson.swift in Sources */,
+				83683E5C298367810027EFA3 /* LessonStruct.swift in Sources */,
+				8363110D2980AAA900BAB2B5 /* lessonTableViewCell.swift in Sources */,
 				83642FF62974E36100418550 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,13 +636,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		83642FFC2974E36100418550 /* NewFitnessApp.xcdatamodeld */ = {
+		833EC325298711EB005A832B /* CoreDataModel1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				83642FFD2974E36100418550 /* NewFitnessApp.xcdatamodel */,
+				833EC326298711EB005A832B /* CoreDataModel1.xcdatamodel */,
 			);
-			currentVersion = 83642FFD2974E36100418550 /* NewFitnessApp.xcdatamodel */;
-			path = NewFitnessApp.xcdatamodeld;
+			currentVersion = 833EC326298711EB005A832B /* CoreDataModel1.xcdatamodel */;
+			path = CoreDataModel1.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
