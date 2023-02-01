@@ -24,6 +24,9 @@
 		83683E582981CD870027EFA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E572981CD870027EFA3 /* MainViewController.swift */; };
 		83683E5A2981D8D80027EFA3 /* LessonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E592981D8D80027EFA3 /* LessonTableViewController.swift */; };
 		83683E5C298367810027EFA3 /* LessonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83683E5B298367810027EFA3 /* LessonStruct.swift */; };
+		83BA3311298ADEA9007FE2FC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA3310298ADEA9007FE2FC /* FavoritesViewController.swift */; };
+		83BA3314298AE646007FE2FC /* NewLessonItems+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA3312298AE646007FE2FC /* NewLessonItems+CoreDataClass.swift */; };
+		83BA3315298AE646007FE2FC /* NewLessonItems+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA3313298AE646007FE2FC /* NewLessonItems+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		83683E572981CD870027EFA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		83683E592981D8D80027EFA3 /* LessonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonTableViewController.swift; sourceTree = "<group>"; };
 		83683E5B298367810027EFA3 /* LessonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStruct.swift; sourceTree = "<group>"; };
+		83BA3310298ADEA9007FE2FC /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		83BA3312298AE646007FE2FC /* NewLessonItems+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewLessonItems+CoreDataClass.swift"; sourceTree = "<group>"; };
+		83BA3313298AE646007FE2FC /* NewLessonItems+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewLessonItems+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,21 +121,22 @@
 		83642FF22974E36100418550 /* NewFitnessApp */ = {
 			isa = PBXGroup;
 			children = (
+				836430012974E36200418550 /* LaunchScreen.storyboard */,
+				83642FF92974E36100418550 /* Main.storyboard */,
 				83642FF32974E36100418550 /* AppDelegate.swift */,
 				83642FF52974E36100418550 /* SceneDelegate.swift */,
-				83683E5B298367810027EFA3 /* LessonStruct.swift */,
-				8363110C2980AAA900BAB2B5 /* lessonTableViewCell.swift */,
 				83683E572981CD870027EFA3 /* MainViewController.swift */,
 				836311122981C84400BAB2B5 /* LoginViewController.swift */,
+				83BA3310298ADEA9007FE2FC /* FavoritesViewController.swift */,
 				83642FF72974E36100418550 /* AddLessonViewController.swift */,
 				83683E592981D8D80027EFA3 /* LessonTableViewController.swift */,
-				833EC32C29871408005A832B /* Lesson+CoreDataClass.swift */,
-				833EC32D29871408005A832B /* Lesson+CoreDataProperties.swift */,
-				83642FF92974E36100418550 /* Main.storyboard */,
-				836430012974E36200418550 /* LaunchScreen.storyboard */,
+				8363110C2980AAA900BAB2B5 /* lessonTableViewCell.swift */,
+				83683E5B298367810027EFA3 /* LessonStruct.swift */,
 				83642FFF2974E36200418550 /* Assets.xcassets */,
 				836430042974E36200418550 /* Info.plist */,
 				833EC325298711EB005A832B /* CoreDataModel1.xcdatamodeld */,
+				83BA3316298AE65C007FE2FC /* NewLessonItem */,
+				83BA3317298AE6A8007FE2FC /* LessonItem */,
 			);
 			path = NewFitnessApp;
 			sourceTree = "<group>";
@@ -149,6 +156,24 @@
 				836430192974E36300418550 /* NewFitnessAppUITestsLaunchTests.swift */,
 			);
 			path = NewFitnessAppUITests;
+			sourceTree = "<group>";
+		};
+		83BA3316298AE65C007FE2FC /* NewLessonItem */ = {
+			isa = PBXGroup;
+			children = (
+				83BA3312298AE646007FE2FC /* NewLessonItems+CoreDataClass.swift */,
+				83BA3313298AE646007FE2FC /* NewLessonItems+CoreDataProperties.swift */,
+			);
+			path = NewLessonItem;
+			sourceTree = "<group>";
+		};
+		83BA3317298AE6A8007FE2FC /* LessonItem */ = {
+			isa = PBXGroup;
+			children = (
+				833EC32C29871408005A832B /* Lesson+CoreDataClass.swift */,
+				833EC32D29871408005A832B /* Lesson+CoreDataProperties.swift */,
+			);
+			path = LessonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +313,10 @@
 				833EC32F29871408005A832B /* Lesson+CoreDataProperties.swift in Sources */,
 				83642FF82974E36100418550 /* AddLessonViewController.swift in Sources */,
 				83642FF42974E36100418550 /* AppDelegate.swift in Sources */,
+				83BA3315298AE646007FE2FC /* NewLessonItems+CoreDataProperties.swift in Sources */,
+				83BA3314298AE646007FE2FC /* NewLessonItems+CoreDataClass.swift in Sources */,
 				833EC32E29871408005A832B /* Lesson+CoreDataClass.swift in Sources */,
+				83BA3311298ADEA9007FE2FC /* FavoritesViewController.swift in Sources */,
 				83683E5A2981D8D80027EFA3 /* LessonTableViewController.swift in Sources */,
 				83683E5C298367810027EFA3 /* LessonStruct.swift in Sources */,
 				8363110D2980AAA900BAB2B5 /* lessonTableViewCell.swift in Sources */,

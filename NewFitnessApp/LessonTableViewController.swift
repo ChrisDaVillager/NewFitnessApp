@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import CoreData
+
 
 class LessonTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, AddLessonViewControllerDelegate {
     
@@ -45,9 +47,10 @@ class LessonTableViewController: UIViewController, UITableViewDataSource, UITabl
     }
 
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        return lessonsArray.count
-//    }
+    @objc func numberOfSections(in tableView: UITableView) -> Int {
+        return lessonsArray.count
+        
+    }
     
     @objc func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return lessonsArray.count
