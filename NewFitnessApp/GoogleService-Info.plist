@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCZDsysJ9OkuS5SXDbA0xfsRFGZxmDi8MQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>561283813050</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>FitnessApp.NewFitnessApp</string>
+	<key>PROJECT_ID</key>
+	<string>newfitnessapp-dc2a8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>newfitnessapp-dc2a8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:561283813050:ios:af64634e6180188123fc83</string>
+</dict>
+</plist>

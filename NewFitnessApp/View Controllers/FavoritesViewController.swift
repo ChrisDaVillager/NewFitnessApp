@@ -17,7 +17,7 @@ class FavoritesViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "CoreData To Do List"
+        title = "To-Do"
         view.addSubview(tableView)
         getLessons()
         tableView.delegate = self
